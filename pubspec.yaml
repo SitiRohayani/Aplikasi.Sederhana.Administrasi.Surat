@@ -1,0 +1,32 @@
+name: persuratan
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  shared_preferences: ^2.1.0
+  intl: ^0.17.0
+  pdf: ^3.10.1
+  path_provider: any
+  permission_handler: ^10.2.0
+  syncfusion_flutter_pdfviewer: ^21.1.41
+  document_file_save_plus: ^2.0.0
+  string_extensions: ^0.6.6
+  flutter_file_downloader: ^1.1.0+1
+  file_picker: ^5.3.0
+  dio: ^5.1.2
+  swipe: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
